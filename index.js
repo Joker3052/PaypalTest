@@ -46,8 +46,8 @@ app.all('/pay', function (req, res) {
         "payment_method": "paypal"
     },
     "redirect_urls": {
-        "return_url": "/success",
-        "cancel_url": "/cancel"
+        "return_url": "https://paypal-test-teal.vercel.app/success",
+        "cancel_url": "https://paypal-test-teal.vercel.app/cancel"
     },
     "transactions": [{
         "item_list": {
