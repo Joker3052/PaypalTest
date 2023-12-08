@@ -46,8 +46,8 @@ app.all('/pay', function (req, res) {
         "payment_method": "paypal"
     },
     "redirect_urls": {
-        "return_url": "http://localhost:3000/success",
-        "cancel_url": "http://localhost:3000/cancel"
+        "return_url": "/success",
+        "cancel_url": "/cancel"
     },
     "transactions": [{
         "item_list": {
